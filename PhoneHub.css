@@ -1,0 +1,267 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #fdd3a3;
+}
+h1{
+    color: rgb(0, 102, 255);
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    background-color: white;
+}
+.tab strong{
+    color:  fuchsia;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+}
+a{
+    color:  #693b1a;
+    list-style: none;
+    text-decoration: none;
+}
+.tab1{
+    margin: 20px;
+    border-top: 2px solid blue;
+}
+.tab1 p{
+    font-size: 20px;
+}
+.tab1 strong{
+    color: fuchsia;
+}
+.tab2 p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+button{
+    padding: 5px 5px;
+    margin: auto;
+    color:white;
+    background-color: rgb(0, 102, 255);
+    border-radius: 8px;
+}
+.tab5{
+    margin: 10px;
+}
+.tab6{
+    text-align: center;
+    color: blue;
+}
+.tab2 h2{
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
+.tab3{
+    display: grid;
+    max-width: 1100px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    & :hover{
+        transform: translateY(4px);
+        color: white;
+    }
+}
+.tab3 h3{
+    text-align: center;
+}
+.tab4{
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    border-color: orangered;
+}
+.tab4-a{
+    background-image: url(pexels-vickygraphy-13367286\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab4-b{
+    background-image: url(pexels-rubaitulazad-16149966.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab4-c{
+    background-image: url(pexels-zeleboba-33334302.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab4-d{
+    background-image: url(pexels-rohit-sharma-1230131-21424627.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab4-e{
+    background-image: url(pexels-zeleboba-28381528.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab4-f{
+    background-image: url(pexels-rohit-sharma-1230131-20074768.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid rgb(34, 52, 79);
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid rgb(34, 52, 79);
+}
+.val{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    background-color: rgb(88, 57, 96);
+    padding: 20px;
+    gap: 20px;
+}
+
+.tab8 ul{
+    display: grid;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    text-align: left;
+}
+
+.tab8 a{
+    color: white;
+}
+
+.tab8 strong{
+    color: fuchsia;
+}
+.tab8 em{
+    color: blue;
+}
+.tab8 p{
+    font-size: 20px;
+}
+
+.fins{
+    background-color: white;
+    border-top: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .tab3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tab{
+        gap: 80px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+}
+/* Téléphones et petits écrans */
+@media screen and (max-width: 768px) {
+    .tab{
+        flex-direction: column;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tab3 {
+        grid-template-columns: 2fr 3fr;
+    }
+    .tab8{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/* Très petits téléphones */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    fieldset {
+        width: 90%;
+    }
+}
