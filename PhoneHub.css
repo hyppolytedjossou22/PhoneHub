@@ -263,8 +263,8 @@ textarea{
     }
     .fil1{
         display: grid;
+        gap: 20px;
     }
-
 }
 /* Très petits téléphones */
 @media screen and (max-width: 480px) {
@@ -286,5 +286,6 @@ textarea{
     }
     .fil1{
         display: grid;
+        gap: 20px;
     }
 }
