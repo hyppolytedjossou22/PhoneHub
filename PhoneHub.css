@@ -261,6 +261,9 @@ textarea{
     .tab8 ul{
         text-align: center;
     }
+    .fil1{
+        display: grid;
+    }
 
 }
 /* Très petits téléphones */
@@ -279,6 +282,9 @@ textarea{
         grid-template-columns: 1fr;
     }
     .tab8{
+        display: grid;
+    }
+    .fil1{
         display: grid;
     }
 }
